@@ -24,9 +24,6 @@ class Rectangle():
         return "A rectangle with width " + {self.width} + "and height "+ {self.height} 
 
 
-
-
-
     # Create the "verify_input" method
     #
     # It returns a boolean
@@ -40,8 +37,6 @@ class Rectangle():
             return True
         else:
             return False
-    
-
 
     # Create the "area" method
     #
@@ -69,9 +64,6 @@ class Rectangle():
             return self.width*2+self.height*2
         else:
             return "Invalid input"
-
-
-    
 
 
 def main():
