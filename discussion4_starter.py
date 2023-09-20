@@ -7,6 +7,11 @@ class Rectangle():
 
     # YOUR CODE HERE
 
+    def __init__(self,x,y):
+        self.width = x
+        self.height = y
+        
+
 
 
     # Create the "__str__" method
@@ -15,6 +20,10 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
+    def __str__ (self):
+        return "A rectangle with width " + {self.width} + "and height "+ {self.height} 
+
+
 
 
 
@@ -26,6 +35,12 @@ class Rectangle():
 
     # YOUR CODE HERE
 
+    def verify_input(self):
+        if self.width > 0 and self.height > 0:
+            return True
+        else:
+            return False
+    
 
 
     # Create the "area" method
@@ -35,7 +50,7 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-
+    
 
     # Create the "perimeter" method
     #
