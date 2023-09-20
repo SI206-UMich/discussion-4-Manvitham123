@@ -49,8 +49,6 @@ class Rectangle():
             return "Invalid input"
 
 
-    
-
     # Create the "perimeter" method
     #
     # It first verifies inputs and return "Invalid input" if they are invalid.
